@@ -1,0 +1,328 @@
+div {
+    margin: auto;
+    padding: 0px 0px;
+    width: 100%;
+    vertical-align: top;
+}
+
+body{
+    background-color: #000003;
+background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+}
+
+#header{
+    width: 100%;
+    height: 90px;
+    border-bottom: 2px solid #fbdf93;
+}
+
+.link {
+    font-size: 74px;
+    font-family: 'IM Fell Double Pica SC', serif;
+    text-decoration: none;
+    background:-webkit-linear-gradient(#fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*http://www.colorzilla.com/gradient-editor/*/
+}
+
+.about > .link1{
+    width: 10%;
+    margin-bottom: 70px;
+    position: relative;
+    text-decoration: none;   
+}
+
+.menu > .link2 {
+    width: 10%;
+    margin-bottom: 70px;
+    position: relative;
+    text-decoration: none;
+}
+
+.location > .link3 {
+    width: 10%;
+    margin-bottom: 70px;
+    position: relative;
+    text-decoration: none;
+}
+
+.contact > .link4 {
+    width: 10%;
+    margin-bottom: 70px;
+    position: relative;
+    text-decoration: none;
+}
+
+#main{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+#nav{
+    width: calc(100% - 2px);
+    margin-bottom: -70px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.canal_img {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    border: 2px solid #fbdf93;
+    padding: 10px;
+}
+
+.main_container{
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.about_para_container{
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fbdf93;
+}
+
+.about:hover, .menu:hover, .hours_location:hover, .hours_location:hover, .contact:hover {
+    background-color: #262626;
+    color: white;
+    text-decoration: none;
+}
+
+.about:visited, .menu:visited, .hours_location:visited, .hours_location:visited, .contact:visited {
+    background-color: #262626;
+    color: white;
+    text-decoration: none;
+}
+
+.about{
+    width: 10%;
+    margin-bottom: 70px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.menu{
+    width: 10%;
+    margin-bottom: 70px;
+    display: inline-block;
+    position: relative;
+}
+
+.hours_location{
+    width: 10%;
+    margin-bottom: 70px;
+    display: inline-block;
+    position: relative;
+}
+
+.contact{
+    width: 10%;
+    margin-bottom: 70px;
+    display: inline-block;
+    position: relative;
+}
+/*this is for the about page image*/
+#image{
+    width: 50%;
+    height: 550px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: auto;
+}
+
+#image > .img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    width: 550px;
+    margin-top: 20px;
+    border: 2px solid #fbdf93;
+    padding: 10px;
+}
+
+#about_para{
+    width: calc(50% - 14px);
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px;
+}
+
+#about_para > .about_p{    
+    color: #fbdf93;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#about_para > .name{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    background:-webkit-linear-gradient(#fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+*/
+/*Menu page styling*/
+
+#body_container{
+    width: 100%;
+}
+
+#warm_ups{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+#big_game{
+    width: 36%;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+#libations{
+    width: calc(27% - 5px);
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+    margin: 0px;
+}
+
+div > p {
+    color: #EDB142;
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.menu-header {
+    text-align: center;
+    font-size: 25px;
+  background:-webkit-linear-gradient(#fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sub {
+    text-align: center;
+    font-size: 20px;
+    color: #fbdf93;
+}
+
+/*Location styling*/
+
+.body{
+    width: 500px;
+    margin: auto;
+}
+
+#map{
+    width: 50%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: auto;
+}
+
+#map > .img2 {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: auto;
+    width: 550px;
+    margin-top: 40px;
+    border: 2px solid #fbdf93;
+    padding: 10px 10px 10px 10px;
+}
+
+#location{
+    width: calc(50% - 9px);
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#location > .location_p{    
+    color: #fbdf93;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+#location > .top{ 
+    text-decoration: none;
+    background:-webkit-linear-gradient(#fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+/*contact styling*/
+.contact_container{
+    margin: auto;
+    color: #fbdf93;
+    font-family:'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+#contact_main{
+    width: 100%;
+    margin-top: -40px;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+#contact_main input{
+    width: 300px;
+    height: 100px;
+}
+
+#formname > input{
+    width: 300px;
+    height: 50px;  
+}
+
+#formemail > input{
+    width: 300px;
+    height: 50px;
+}
+
+#formcomment > input {
+    width: 300px;
+    height: 50px;
+}
+
+#formsubmit > input{
+    width: 300px;
+    height: 30px;
+}
+
+div h2{
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    text-decoration: none;
+    background:-webkit-linear-gradient(#fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
